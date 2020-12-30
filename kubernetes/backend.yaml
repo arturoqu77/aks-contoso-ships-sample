@@ -26,12 +26,12 @@ spec:
             - containerPort: 3000
               name: http
           env:
-            - name: DATABASE_MONGODB_URI
+            - name: https://cosmos-aq77.documents.azure.com:443/
               valueFrom:
                 secretKeyRef:
                   key: database_mongodb_uri
                   name: backend-db
-            - name: DATABASE_MONGODB_DBNAME
+            - name: mongo
               value: ship_manager
 ---
 apiVersion: v1
