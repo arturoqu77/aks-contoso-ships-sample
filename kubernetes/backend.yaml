@@ -68,7 +68,7 @@ metadata:
   name: backend-db
 type: Opaque
 stringData:
-  database_mongodb_uri: mongodb+srv://someconnectionstringhere
+  database_mongodb_uri: mongodb://cosmos-aq77:c9UPfSwaqCWrIuqdkYawJcrPsdXTHjSxEZUE6cJ3btvsKZDKHNDZUiImOF8B1TTZmhoPQ7i0g52sI1JpfJXb8g==@cosmos-aq77.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
 ---
 apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
